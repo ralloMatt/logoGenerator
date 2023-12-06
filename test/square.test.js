@@ -35,7 +35,7 @@ describe('Square', () => {
             const square = new Square(text, textColor, color);
             
             expect(square.render()).toBe(
-                `<rect x="150" y="150" width="100" height="100" fill="${square.color}" />`
+                `<rect x="60" y="25" width="175" height="175" fill="${square.color}" />`
             );
         });
     });

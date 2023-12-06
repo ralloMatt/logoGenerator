@@ -32,7 +32,7 @@ describe('Shape', () => {
             const shape = new Shape(text, textColor);
             
             expect(shape.renderText()).toBe(
-                `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${shape.textColor}"> ${shape.text} </text>`
+                `<text x="150" y="125" font-size="50" text-anchor="middle" fill="${shape.textColor}"> ${shape.text} </text>`
             );
         });
     });
