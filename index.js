@@ -19,7 +19,7 @@ function generateSvg(shape){ // generates the code for the svg file
 
 function createLogo(shape){ // writes to file
     fs.writeFile('./examples/logo.svg', generateSvg(shape), 
-    (err) => err ? console.error(err) : console.log('File created sucessfully! Look in "examples" directory. Thanks.'));
+    (err) => err ? console.error(err) : console.log('Generated "logo.svg" sucessfully! Look in "examples" directory. Thanks.'));
 }
 
 const getLogoInfo = () => { // use inquirer to make a prompt, so I can ask get logo information
