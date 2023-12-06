@@ -33,7 +33,7 @@ const getLogoInfo = () => { // use inquirer to make a prompt, so I can ask get l
         {
             type: 'input',
             name: 'colorText',
-            message: 'Enter the color of the text you would like (Hexadecial or Color Keyword):',
+            message: 'Enter the color of the text you would like (Hexadecimal with # or Color Keyword):',
         },
         {
             type: 'list', 
@@ -44,7 +44,7 @@ const getLogoInfo = () => { // use inquirer to make a prompt, so I can ask get l
         {
             type: 'input',
             name: 'colorShape',
-            message: 'Enter the color of the shape you would like (Hexadecial or Color Keyword):',
+            message: 'Enter the color of the shape you would like (Hexadecimal with # or Color Keyword):',
         },
     ]);
 }
